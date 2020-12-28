@@ -17,7 +17,7 @@ export const RegistrationView: FC<Props> = observer(({ navigation }) => {
         RegistrationPresenter: { updateField, handleRegistrate } } = useAppStore();
 
     return (
-        <ScrollView style={styles.container} keyboardDismissMode='interactive' keyboardShouldPersistTaps={'handled'}>
+        <ScrollView testID={"ScrollViewTestID"}style={styles.container} keyboardDismissMode='interactive' keyboardShouldPersistTaps={'handled'}>
             <View style={styles.inputsContainer}>
                 <CustomTextInput value={name} onChangeText={(text: string) => updateField('name', text)} placeholder={'name'} isDark={false} testID='inputService˝RegistrationView' />
                 <CustomTextInput value={password} onChangeText={(text: string) => updateField('password', text)} placeholder={'password'} isDark={false} testID='inputPassworRegistrationView' />
