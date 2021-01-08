@@ -31,4 +31,49 @@ it("Первая запись", async () => {
   await element(by.id("inputBodyAddTodoView")).typeText("test2");
   await element(by.id("buttonSaveAddTodoView")).tap();
 });
+it("Вторая запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test2");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
+it("Третья запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test3");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
+it("Четвёртая запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test4");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
+it("Пятая запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test5");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
+it("Шестая запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test6");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
+it("Седьмая запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test7");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
+it("Восьмая запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test8");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
+it("Скролл", async () => {
+  await element(by.id('snippetListTodosView')).scroll(100, 'down');
+});
 });

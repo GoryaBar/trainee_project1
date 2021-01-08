@@ -1,0 +1,4 @@
+com.mobxtest.test
+integer react_native_dev_server_port
+integer react_native_inspector_proxy_port
+string app_name

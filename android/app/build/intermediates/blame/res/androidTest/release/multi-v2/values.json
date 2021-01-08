@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\User\\Desktop\\trainee_pr1\\trainee_project1\\android\\app\\build\\intermediates\\incremental\\mergeReleaseAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\d7e6b69df123698938c06a5e81fa6702\\jetified-detox-17.14.6\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "188",
+                        "endColumns": "42",
+                        "endOffsets": "226"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\Desktop\\trainee_pr1\\trainee_project1\\android\\app\\build\\generated\\res\\resValues\\androidTest\\release\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "164,229",
+                        "endColumns": "63,68",
+                        "endOffsets": "223,293"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,119",
+                        "endColumns": "63,68",
+                        "endOffsets": "114,183"
+                    }
+                }
+            ]
+        }
+    ]
+}
