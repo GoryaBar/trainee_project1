@@ -2,18 +2,33 @@ describe('Example', () => {
   beforeEach(async () => {
     await device.reloadReactNative();
   });
+  
+  // it('should have welcome screen', async () => {
+  //   await expect(element(by.id('RegistrationPresenter'))).toBeVisible();
+  // });
 
-  it('should have welcome screen', async () => {
-    await expect(element(by.id('welcome'))).toBeVisible();
-  });
+ it('Просмотр экрана', async ()=> {
+ await expect(element(by.id('buttonRegistrateRegistrationView'))).toBeVisible(); 
+ });
 
-  it('should show hello screen after tap', async () => {
-    await element(by.id('hello_button')).tap();
-    await expect(element(by.text('Hello!!!'))).toBeVisible();
-  });
-
-  it('should show world screen after tap', async () => {
-    await element(by.id('world_button')).tap();
-    await expect(element(by.text('World!!!'))).toBeVisible();
-  });
+ it("Валидная регистрация", async () => {
+  await element(by.id("inputNameView")).typeText("IhorB");
+  await element(by.id("inputPasswordView")).typeText("1234");
+  await element(by.id("inputPinView")).typeText("1234");
+  await element(by.id("inputphoneView")).typeText("380996543232");
+  await element(by.id("inputemailView")).typeText("test@gmail.ru");
+  await element(by.id('buttonRegistrateRegistrationView')).tap();
+});
+it('Отображение кнопки "Добавить"', async ()=> {
+  await expect(element(by.id('buttonAddTodoTodosView'))).toBeVisible();
+});
+it('Нажатие кнопки "Добавить"', async ()=> {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+});
+it("Первая запись", async () => {
+  await element(by.id('buttonAddTodoTodosView')).tap();
+  await element(by.id("inputTitleAddTodoView")).typeText("test1");
+  await element(by.id("inputBodyAddTodoView")).typeText("test2");
+  await element(by.id("buttonSaveAddTodoView")).tap();
+});
 });
