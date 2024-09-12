@@ -18,8 +18,8 @@ export const MainButton: FC<Props> = observer(({ onPress = () => { }, title = ''
             disabled={disabled}
             style={({ pressed }) => [styles.container, { opacity: pressed || disabled ? 0.7 : 1 }]}
             onPress={onPress}
-            testID={`button${testID}`}
-            accessibilityLabel={`button${testID}`}
+            testID={testID}
+            accessibilityLabel={testID}
         >
             <Text style={styles.text} testID={`text${testID}`} accessibilityLabel={`text${testID}`}>{title.toUpperCase()}</Text>
             {inProgress ? <View style={styles.absoluteSheet}><ActivityIndicator color={'#aa00aa'} size='large' /></View> : null}

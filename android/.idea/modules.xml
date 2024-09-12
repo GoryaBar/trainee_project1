@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobxTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mobxTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mobxTest.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mobxTest.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-980870590/mobxTest.appcenter.iml" filepath="$PROJECT_DIR$/.idea/modules/-980870590/mobxTest.appcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1775885499/mobxTest.appcenter-analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/1775885499/mobxTest.appcenter-analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1186867702/mobxTest.appcenter-crashes.iml" filepath="$PROJECT_DIR$/.idea/modules/-1186867702/mobxTest.appcenter-crashes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1237751896/mobxTest.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1237751896/mobxTest.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1686933669/mobxTest.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1686933669/mobxTest.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/597324754/mobxTest.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/597324754/mobxTest.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-257847542/mobxTest.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-257847542/mobxTest.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-845160517/mobxTest.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-845160517/mobxTest.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/971087251/mobxTest.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/971087251/mobxTest.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>

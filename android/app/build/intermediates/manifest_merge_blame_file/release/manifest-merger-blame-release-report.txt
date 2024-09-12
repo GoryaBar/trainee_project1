@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobxtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.microsoft.appcenter:appcenter:4.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\624e74e99f0a2b64298f66b8d4cbf162\jetified-appcenter-4.0.0\AndroidManifest.xml:16:5-79
+12-->[com.microsoft.appcenter:appcenter:4.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\624e74e99f0a2b64298f66b8d4cbf162\jetified-appcenter-4.0.0\AndroidManifest.xml:16:22-76
+13
+14    <application
+14-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:6:5-26:19
+15        android:name="com.mobxtest.MainApplication"
+15-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:7:7-38
+16        android:allowBackup="false"
+16-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:11:7-34
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a7d4aa049d7fc668e8f221e0b312c82a\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:9:7-41
+19        android:label="@string/app_name"
+19-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:8:7-39
+20        android:networkSecurityConfig="@xml/network_security_config"
+20-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:13:7-67
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:10:7-52
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:12:7-38
+23        <activity
+23-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:14:7-24:18
+24            android:name="com.mobxtest.MainActivity"
+24-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:15:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+25-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:17:9-86
+26            android:label="@string/app_name"
+26-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:16:9-41
+27            android:launchMode="singleTask"
+27-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:18:9-40
+28            android:windowSoftInputMode="adjustResize" >
+28-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:19:9-51
+29            <intent-filter>
+29-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:20:9-23:25
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:21:13-65
+30-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:21:21-62
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:22:13-73
+32-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:22:23-70
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:25:7-84
+35-->C:\Users\User\Desktop\trainee_pr1\trainee_project1\android\app\src\main\AndroidManifest.xml:25:17-81
+36    </application>
+37
+38</manifest>
